@@ -5,38 +5,28 @@ body{
    background-repeat: no-repeat;
    background-size: contain;*/
 
-   color: rgb(36, 28, 17);
+   color: #241c11;
    text-align: left;    /*aliniar coses*/
 
    font-size: 1m;
-.montserrat-<uniquifier> {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
-
-  
+  margin-left: 30px;
 
 
 }
+
+
+#foto{
+    margin-left: 1675px;
+}
+
 
 
 h2 {
 background-color: rgb(128, 99, 75);
-font-family: 
-
-POSAR FONT
-
-}
-
-
-#DADES_PERSONALS{
-    background-color: rgb(227, 235, 115);
-}
-
-.ACADÈMIQUES_EXPERIÈNCIA {
-    background-color: rgb(140, 242, 239);
+font-family: "Tenor Sans", sans-serif;
+margin-right: 1650px;
+text-align: center;
 
 }
