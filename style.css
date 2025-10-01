@@ -1,32 +1,56 @@
-body{
+body {
     background-color: rgb(244, 238, 229);
-   /* background-image: url('foto\ curriculum.jpg'); 
+    /* background-image: url('foto\ curriculum.jpg'); 
    background-size: contain;
    background-repeat: no-repeat;
    background-size: contain;*/
 
-   color: #241c11;
-   text-align: left;    /*aliniar coses*/
+    color: #241c11;
+    text-align: left;
+    /*aliniar coses*/
 
-   font-size: 1m;
-  font-family: "Montserrat", sans-serif;
+    font-size: 1m;
+    font-family: "Montserrat", sans-serif;
 
-  margin-left: 30px;
-
+    margin-left: 30px;
 
 }
 
 
-#foto{
-    margin-left: 1675px;
+#foto {
+    display: inline-block
+    ;
+    
+
 }
+
+#DADES_PERSONALS{
+    width: 35%;
+    display: inline-block;
+    background-color: rgb(231, 207, 188);
+    text-align: left;
+}
+
+
+#DADES_ACADÈMIQUES{
+    background-color: rgb(231, 207, 188);
+width: 35%;
+}
+
+
+
+#EXPERIÈNCIA.LABORAL{
+    background-color: rgb(231, 207, 188);
+
+
+}
+
 
 
 
 h2 {
-background-color: rgb(128, 99, 75);
-font-family: "Tenor Sans", sans-serif;
-margin-right: 1650px;
-text-align: center;
-
+    background-color: rgb(128, 99, 75);
+    font-family: "Tenor Sans", sans-serif;
+    width: 30%;   
+    text-align: center;
 }
