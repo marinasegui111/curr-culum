@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <script src="./script.js"></script>
+
 
 </head>
 
 <body>
 
 
-   
-
-
-<section id="DADES_PERSONALS">  
-    <h2>Dades personals</h2>
-        <p><strong>Nom:</strong> Marina Segui Juan</p>
+    <section id="DADES_PERSONALS">
+        <h2>Dades personals</h2>
+        <p id="nom"><strong>Nom:</strong> Marina Segui Juan</p>
         <p><strong>Data de naixement:</strong> 01/11/2009</p>
         <p><strong>Correu electrònic:</strong> msegui21181@iesjoanramis.org</p>
         <p><strong>Telèfon:</strong> 681921950</p>
         <p><strong>País:</strong> Espanya</p>
         <p><strong>Localitat:</strong> Maó-Menorca</p>
         <p><strong>Direcció:</strong> Fort de l'Eau</p>
-</section>
+    </section>
 
-        <img  id="foto"  src="foto curriculum.jpg" width="20%">
+    <img id="foto" src="foto curriculum.jpg" width="20%">
 
 
 
-<section id="DADES_ACADÈMIQUES">
-    <h2>Dades acadèmiques</h2>
+    <section id="DADES_ACADÈMIQUES">
+        <h2>Dades acadèmiques</h2>
         <p><strong>Infantil, educació primària i educació secundària:</strong> CC Sant Josep, Maó</p>
         <p><strong>Batxillerat ciències:</strong> IES Joan Ramis i Ramis</p>
         <p>Llicenciada en criminalística a la UAB</p>
-</section>
+    </section>
 
-<section id="EXPERIÈNCIA.LABORAL">
-    <h2>Experiència laboral</h2>
+    <section id="EXPERIÈNCIA.LABORAL">
+        <h2>Experiència laboral</h2>
         <ul>
-            <li>Pràctiques a l'equip de policia científica durant un any</li>
-
+            <li>Pràctiques a l'equip de policia científica durant un any (2024-2025)</li>
         </ul>
-</section>
-
     
-      <section> POSAR ID
-  <h2>Altres dades</h2>
+    </section>
+
+
+    <section id="ALTRES.DADES">
+        <h2>Altres dades</h2>
         <ul>
             <li>Observadora</li>
             <li>Habilitats per analitzar postures, gestes...</li>
 
         </ul>
-</section>
+    </section>
+
+
+    <nav>
+        <button onclick="canviNom()">Canviar identitat</button>
+        <button onclick="canviFoto()">Transformar imatge</button>
+        <button onclick="">Viatjar a Egipte</button>
+        <button onclick="">Apendre idiomes</button>
+        <button onclick="invisibilitat()">Tornar-se invisible</button>
+        <button onclick="">Afegir informació</button>
+    </nav>
+
+
+
+
 
 </body>
 

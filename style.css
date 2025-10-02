@@ -18,13 +18,12 @@ body {
 
 
 #foto {
-    display: inline-block
-    ;
-    
+    display: inline-block;
+
 
 }
 
-#DADES_PERSONALS{
+#DADES_PERSONALS {
     width: 35%;
     display: inline-block;
     background-color: rgb(231, 207, 188);
@@ -34,7 +33,7 @@ body {
 
 #DADES_ACADÈMIQUES{
     background-color: rgb(231, 207, 188);
-width: 35%;
+    width: 35%;
 }
 
 
@@ -42,15 +41,30 @@ width: 35%;
 #EXPERIÈNCIA.LABORAL{
     background-color: rgb(231, 207, 188);
 
+}
+
+#ALTRES.DADES{
+    background-color: rgb(219, 195, 175)
+
 
 }
 
+button {
+    background-color: rgb(78, 63, 48);
+    color: rgb(255, 254, 254);
 
-
+}
 
 h2 {
     background-color: rgb(128, 99, 75);
     font-family: "Tenor Sans", sans-serif;
-    width: 30%;   
+    width: 30%;
     text-align: center;
+}
+
+
+nav {
+
+font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
