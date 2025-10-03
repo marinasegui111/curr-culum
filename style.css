@@ -38,14 +38,15 @@ body {
 
 
 
-#EXPERIÈNCIA.LABORAL{
+#EXPERIÈNCIALABORAL{
     background-color: rgb(231, 207, 188);
+    width: 35%;
 
 }
 
-#ALTRES.DADES{
-    background-color: rgb(219, 195, 175)
-
+#ALTRESDADES{
+    background-color: rgb(219, 195, 175);
+    width: 35%;
 
 }
 
@@ -64,7 +65,7 @@ h2 {
 
 
 nav {
-
-font-family:Georgia, 'Times New Roman', Times, serif;
-
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: right;
 }
+

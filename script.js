@@ -10,11 +10,31 @@ function canviFoto(){
 
 }
 
-function invisibilitat(){
-    if(document.getElementById("foto").hidden == true ){
-        document.getElementById("foto").hidden = false
+function canviFondo(){
+    let body = document.getElementsByTagName("body")[0]
+    let foto = prompt("A on vols viatjar?")
+    body.style = "background-image: url('"+foto+"'); background-size: cover;"
 
-    }else{
-        document.getElementById("foto").hidden = true
-    }
 }
+
+function tradueix(){
+    let body = document.getElementsByTagName("body")[0]
+    body.style = "font-family: Georgia, 'Times New Roman', Times, serif;"
+
+}
+
+
+
+function invisibilitat(){
+    document.getElementById("foto").style = "display: none"
+
+}
+
+function mésinfo(){
+    let llista = document.getElementById("expL");
+    let element = document.createElement("li");
+    element.innerHTML = prompt("Què vols afegir?")
+    llista.appendChild(element)
+
+}
+
