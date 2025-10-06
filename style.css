@@ -15,10 +15,13 @@ body {
     margin-left: 30px;
 
 }
-
+div{
+    display: inline-block;
+}
 
 #foto {
     display: inline-block;
+margin-left: 160%;
 
 
 }
@@ -28,12 +31,14 @@ body {
     display: inline-block;
     background-color: rgb(231, 207, 188);
     text-align: left;
+    margin-left: 3%;
 }
 
 
 #DADES_ACADÈMIQUES{
     background-color: rgb(231, 207, 188);
     width: 35%;
+    margin-left: 3%;
 }
 
 
@@ -41,12 +46,14 @@ body {
 #EXPERIÈNCIALABORAL{
     background-color: rgb(231, 207, 188);
     width: 35%;
+    margin-left: 3%;
 
 }
 
 #ALTRESDADES{
     background-color: rgb(219, 195, 175);
     width: 35%;
+    margin-left: 3%;
 
 }
 

@@ -38,3 +38,19 @@ function mésinfo(){
 
 }
 
+function afegirmascota(){
+    let foti = prompt("Quin animals vols tenir al teu costat?")
+    let imatge = document.createElement("img")
+    imatge.src = foti
+
+    document.getElementById("fotos").appendChild(imatge)
+
+
+
+}
+
+
+function canviartamanyfoto(){
+document.getElementById("foto").style = "widht"
+
+}
